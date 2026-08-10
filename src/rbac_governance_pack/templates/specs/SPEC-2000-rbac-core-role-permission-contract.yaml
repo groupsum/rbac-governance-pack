@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:rbac-core-role-permission-contract",
+  "number": 2000,
+  "slug": "rbac-core-role-permission-contract",
+  "title": "RBAC Core Role Permission Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines RBAC users, roles, permissions, operations, and resources.",
+  "body": "## Requirements\n\n- Use stable identifiers for roles and permissions.\n- Define permissions as action and resource combinations.\n- Do not assign application permissions directly from identity claims.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/Projects/Role-Based-Access-Control"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "rbac",
+    "roles",
+    "permissions",
+    "separation-of-duty",
+    "least-privilege"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:roles-are-permission-bundles-not-policy-truth",
+    "adr:role-hierarchies-and-separation-of-duty-are-explicit",
+    "adr:entitlements-are-inputs-not-runtime-role-decisions"
+  ]
+}

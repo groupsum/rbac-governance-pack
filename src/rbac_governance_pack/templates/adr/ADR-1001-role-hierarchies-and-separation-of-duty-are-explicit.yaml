@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:role-hierarchies-and-separation-of-duty-are-explicit",
+  "number": 1001,
+  "slug": "role-hierarchies-and-separation-of-duty-are-explicit",
+  "title": "Role Hierarchies And Separation Of Duty Are Explicit",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Role inheritance and static and dynamic separation-of-duty constraints are explicit.",
+  "body": "Role inheritance and static and dynamic separation-of-duty constraints are explicit.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/Projects/Role-Based-Access-Control"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "rbac",
+    "roles",
+    "permissions",
+    "separation-of-duty",
+    "least-privilege"
+  ]
+}

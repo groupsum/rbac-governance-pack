@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:entitlement-role-and-group-normalization-contract",
+  "number": 2004,
+  "slug": "entitlement-role-and-group-normalization-contract",
+  "title": "Entitlement Role And Group Normalization Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines how provisioned groups and entitlements become governed RBAC inputs.",
+  "body": "## Requirements\n\n- Identify the authoritative provisioning source.\n- Map external facts through explicit versioned rules.\n- Require authorization review before granting runtime roles.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/Projects/Role-Based-Access-Control"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "rbac",
+    "roles",
+    "permissions",
+    "separation-of-duty",
+    "least-privilege"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:roles-are-permission-bundles-not-policy-truth",
+    "adr:role-hierarchies-and-separation-of-duty-are-explicit",
+    "adr:entitlements-are-inputs-not-runtime-role-decisions"
+  ]
+}

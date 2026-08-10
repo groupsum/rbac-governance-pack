@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:user-role-and-permission-role-assignment-contract",
+  "number": 2001,
+  "slug": "user-role-and-permission-role-assignment-contract",
+  "title": "User Role And Permission Role Assignment Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines assignment authority, lifecycle, and evidence.",
+  "body": "## Requirements\n\n- Authorize and record user-role and permission-role assignment changes.\n- Apply effective and expiry times.\n- Remove assignments when their source authority ends.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/Projects/Role-Based-Access-Control"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "rbac",
+    "roles",
+    "permissions",
+    "separation-of-duty",
+    "least-privilege"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:roles-are-permission-bundles-not-policy-truth",
+    "adr:role-hierarchies-and-separation-of-duty-are-explicit",
+    "adr:entitlements-are-inputs-not-runtime-role-decisions"
+  ]
+}

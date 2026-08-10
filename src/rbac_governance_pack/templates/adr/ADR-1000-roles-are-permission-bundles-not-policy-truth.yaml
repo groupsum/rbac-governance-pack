@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:roles-are-permission-bundles-not-policy-truth",
+  "number": 1000,
+  "slug": "roles-are-permission-bundles-not-policy-truth",
+  "title": "Roles Are Permission Bundles Not Policy Truth",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Roles bundle permissions but remain governed inputs to authorization decisions.",
+  "body": "Roles bundle permissions but remain governed inputs to authorization decisions.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/Projects/Role-Based-Access-Control"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "rbac",
+    "roles",
+    "permissions",
+    "separation-of-duty",
+    "least-privilege"
+  ]
+}

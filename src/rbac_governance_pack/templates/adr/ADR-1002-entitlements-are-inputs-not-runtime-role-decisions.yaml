@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:entitlements-are-inputs-not-runtime-role-decisions",
+  "number": 1002,
+  "slug": "entitlements-are-inputs-not-runtime-role-decisions",
+  "title": "Entitlements Are Inputs Not Runtime Role Decisions",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Provisioned entitlements may inform assignment but do not silently become runtime roles.",
+  "body": "Provisioned entitlements may inform assignment but do not silently become runtime roles.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/Projects/Role-Based-Access-Control"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "rbac",
+    "roles",
+    "permissions",
+    "separation-of-duty",
+    "least-privilege"
+  ]
+}

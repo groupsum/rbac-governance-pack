@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:static-and-dynamic-separation-of-duty-contract",
+  "number": 2003,
+  "slug": "static-and-dynamic-separation-of-duty-contract",
+  "title": "Static And Dynamic Separation Of Duty Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines incompatible assignments and simultaneous activation constraints.",
+  "body": "## Requirements\n\n- Declare static incompatible-role constraints.\n- Declare dynamic activation constraints.\n- Deny and audit conflicting assignments and activations.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/Projects/Role-Based-Access-Control"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "rbac",
+    "roles",
+    "permissions",
+    "separation-of-duty",
+    "least-privilege"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:roles-are-permission-bundles-not-policy-truth",
+    "adr:role-hierarchies-and-separation-of-duty-are-explicit",
+    "adr:entitlements-are-inputs-not-runtime-role-decisions"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:role-hierarchy-contract",
+  "number": 2002,
+  "slug": "role-hierarchy-contract",
+  "title": "Role Hierarchy Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines inheritance, effective permissions, and cycle prevention.",
+  "body": "## Requirements\n\n- Declare hierarchy direction and inheritance semantics.\n- Prevent cycles and unintended cross-tenant inheritance.\n- Expose effective permissions for review.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/Projects/Role-Based-Access-Control"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "rbac",
+    "roles",
+    "permissions",
+    "separation-of-duty",
+    "least-privilege"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:roles-are-permission-bundles-not-policy-truth",
+    "adr:role-hierarchies-and-separation-of-duty-are-explicit",
+    "adr:entitlements-are-inputs-not-runtime-role-decisions"
+  ]
+}
